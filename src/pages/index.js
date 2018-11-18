@@ -12,8 +12,13 @@ const IndexPage = () => (
     <div style={{ maxWidth: '300px', marginBottom: '1.45rem' }}>
       <Image />
     </div>
-    <Link to="/page-2/">Go to gallery without graphql</Link>
-    <Link to="/page-3/">Go to gallery with graphql</Link>
+    <div>
+      <Link to="/page-2/">Go to gallery without graphql</Link>
+    </div>
+    <div>
+      <Link to="/page-3/">Go to gallery with graphql</Link>
+    </div>
+    
   </Layout>
 )
 
